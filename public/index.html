@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novorion | Website and Web Application Development in Kyrgyzstan</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Иконки FontAwesome для оформления -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- Навигация (Шапка) -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">&lt;Nov<span>Orion</span>/&gt;</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#servicios">Services</a></li>
+                    <li><a href="#portafolio">Portfolio</a></li>
+                    <li><a href="#precios">Prices</a></li>
+                    <li><a href="#contacto" class="btn-nav">Discuss project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер (Hero Section) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Turning your ideas into <span class="highlight">effective websites</span></h1>
+                <p>Full-stack website developer. I create fast, secure, and optimized platforms to grow your business in Kyrgyzstan and worldwide.</p>
+                <div class="hero-cta">
+                    <a href="#precios" class="btn btn-primary">View pricing</a>
+                    <a href="#portafolio" class="btn btn-secondary">My work</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="Images/Copilot_20260922_011939.png" alt="Website Development">
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги (Services) -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>How can I help your business?</h2>
+                <p>Modern web solutions tailored to your commercial objectives.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-code icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Interactive, responsive interface design. Websites display perfectly on any smartphone and PC (React, Vue, HTML/CSS).</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-server icon"></i>
+                    <h3>Backend & API</h3>
+                    <p>Reliable server architecture, fast database performance, and secure integration of internal systems (Node.js, Python).</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-cart-shopping icon"></i>
+                    <h3>Online Stores</h3>
+                    <p>Creation of e-commerce platforms with a shopping cart, catalog, and user-friendly management panel (WooCommerce, Shopify, or custom solutions).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио (Portfolio) -->
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Recent Projects</h2>
+                <p>Examples of applications and websites I have recently developed and launched.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Проект 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <h3>SaaS Financial Dashboard</h3>
+                        <p>Analytical platform with real-time charts and metrics.</p>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                </div>
+                <!-- Проект 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <h3>Fashion Store</h3>
+                        <p>Large e-commerce project with a personal account and shopping cart.</p>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Тарифы и Цены (Pricing в сомах) -->
+    <section id="precios" class="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Plans and Pricing</h2>
+                <p>Choose the right service package depending on the scale and goals of your project.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Пакет 1 -->
+                <div class="price-card">
+                    <h3>Landing Page</h3>
+                    <div class="price">$290</div>
+                    <p class="price-desc">Ideal for a quick ad launch, niche testing, or presenting a single product.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> One-page website (Landing)</li>
+                        <li><i class="fa-solid fa-check"></i> 100% mobile responsive</li>
+                        <li><i class="fa-solid fa-check"></i> Contact form / Inquiries</li>
+                        <li><i class="fa-solid fa-check"></i> Basic SEO optimization</li>
+                        <li><i class="fa-solid fa-xmark no"></i> Personal account / Database</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-secondary-outline">Select this plan</a>
+                </div>
+                <!-- Пакет 2 (Популярный) -->
+                <div class="price-card popular">
+                    <div class="badge">Popular</div>
+                    <h3>Corporate Website</h3>
+                    <div class="price">$640</div>
+                    <p class="price-desc">An excellent solution for companies that need to present their services in detail.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Up to 5-7 internal pages</li>
+                        <li><i class="fa-solid fa-check"></i> User-friendly Content Management System (CMS)</li>
+                        <li><i class="fa-solid fa-check"></i> WhatsApp and social media integration</li>
+                        <li><i class="fa-solid fa-check"></i> Analytics setup (Google Analytics)</li>
+                        <li><i class="fa-solid fa-check"></i> 1 month of free technical support</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Select this plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи (Contact Form) -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Do you have a project idea?</h2>
+                <p>Describe your task, and I will calculate the preliminary cost and development timeline within 24 hours.</p>
+            </div>
+            <form id="contact-form" class="cool-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="For example, Almaz">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email / Phone</label>
+                        <input type="text" id="email" name="email" required placeholder="example@mail.com or +996...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="project-type">What needs to be developed?</label>
+                    <select id="project-type" name="projectType" required>
+                        <option value="" disabled selected>Select website type</option>
+                        <option value="landing">One-page website (Landing Page)</option>
+                        <option value="corporate">Corporate website for a company</option>
+                        <option value="ecommerce">Online Store</option>
+                        <option value="custom">Turnkey unique web project</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project details and requirements</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Briefly tell me about the goals of your future website, references, or features..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit request</button>
+            </form>
+
+            <!-- Mensaje de estado para el cliente -->
+            <div id="status-message" class="hidden"></div>
+        </div>
+    </section>
+
+    <!-- Подвал (Footer) -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 DevWeb Bishkek. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a tu script de cliente -->
+    <script src="script.js"></script>
+</body>
+</html>
